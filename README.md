@@ -43,7 +43,7 @@ namespace ATM
                 }
                 else
                 {
-                    Console.WriteLine("Incorrect PIN");
+                    Console.WriteLine("Incorrect PIN or PIN not found");
                 }
 
 
@@ -161,7 +161,7 @@ namespace ATM
                         }
                         else
                         {
-                            Console.WriteLine("PIN changed successfully!");
+                            Console.WriteLine("PIN registered successfully!");
                         }
               break;
               case "2":
